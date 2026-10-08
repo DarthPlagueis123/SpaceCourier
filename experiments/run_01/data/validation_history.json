@@ -1,0 +1,62 @@
+[
+  {
+    "step": 25000,
+    "completed_episodes": 261,
+    "mean_score": 1758.8,
+    "median_score": 1271.0
+  },
+  {
+    "step": 50000,
+    "completed_episodes": 474,
+    "mean_score": 4647.55,
+    "median_score": 3967.0
+  },
+  {
+    "step": 75000,
+    "completed_episodes": 611,
+    "mean_score": 4352.2,
+    "median_score": 4457.5
+  },
+  {
+    "step": 100000,
+    "completed_episodes": 709,
+    "mean_score": 5019.25,
+    "median_score": 4116.0
+  },
+  {
+    "step": 125000,
+    "completed_episodes": 771,
+    "mean_score": 6568.5,
+    "median_score": 6352.5
+  },
+  {
+    "step": 150000,
+    "completed_episodes": 833,
+    "mean_score": 7920.75,
+    "median_score": 8675.0
+  },
+  {
+    "step": 175000,
+    "completed_episodes": 881,
+    "mean_score": 5305.95,
+    "median_score": 3982.5
+  },
+  {
+    "step": 200000,
+    "completed_episodes": 942,
+    "mean_score": 4511.6,
+    "median_score": 4773.5
+  },
+  {
+    "step": 225000,
+    "completed_episodes": 998,
+    "mean_score": 5275.1,
+    "median_score": 6224.5
+  },
+  {
+    "step": 250000,
+    "completed_episodes": 1059,
+    "mean_score": 6166.25,
+    "median_score": 6505.5
+  }
+]

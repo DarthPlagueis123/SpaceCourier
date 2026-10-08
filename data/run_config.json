@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "learning_rate": 0.0003,
+  "gamma": 0.99,
+  "batch_size": 128,
+  "replay_capacity": 50000,
+  "warmup_steps": 3000,
+  "train_every": 4,
+  "target_every": 2000,
+  "epsilon_start": 1.0,
+  "epsilon_end": 0.05,
+  "epsilon_decay_steps": 120000,
+  "max_seconds": 180,
+  "requested_steps": 250000,
+  "torch_version": "2.6.0+cpu",
+  "device": "cpu",
+  "validation_seed_start": 200000,
+  "test_seed_start": 100000
+}

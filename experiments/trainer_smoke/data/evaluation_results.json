@@ -1,0 +1,1014 @@
+{
+  "episodes": 100,
+  "seed_start": 100000,
+  "max_seconds": 180,
+  "mean_score": 1714.6,
+  "median_score": 1386.5,
+  "min_score": 431,
+  "max_score": 8718,
+  "std_score": 1290.3741294444003,
+  "mean_survival_seconds": 17.15083333333325,
+  "capped_games": 0,
+  "games": [
+    {
+      "seed": 100000,
+      "score": 893,
+      "survival_seconds": 8.933333333333357,
+      "steps": 90,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 71.33333333333331
+    },
+    {
+      "seed": 100001,
+      "score": 953,
+      "survival_seconds": 9.533333333333387,
+      "steps": 96,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 77.83333333333331
+    },
+    {
+      "seed": 100002,
+      "score": 1263,
+      "survival_seconds": 12.63333333333354,
+      "steps": 127,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 110.8333333333333
+    },
+    {
+      "seed": 100003,
+      "score": 1786,
+      "survival_seconds": 17.866666666666934,
+      "steps": 179,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 166.16666666666666
+    },
+    {
+      "seed": 100004,
+      "score": 2115,
+      "survival_seconds": 21.15000000000008,
+      "steps": 212,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 200.99999999999997
+    },
+    {
+      "seed": 100005,
+      "score": 2551,
+      "survival_seconds": 25.5166666666665,
+      "steps": 256,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 247.1666666666666
+    },
+    {
+      "seed": 100006,
+      "score": 621,
+      "survival_seconds": 6.21666666666665,
+      "steps": 63,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 42.66666666666666
+    },
+    {
+      "seed": 100007,
+      "score": 1180,
+      "survival_seconds": 11.800000000000166,
+      "steps": 118,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 101.99999999999999
+    },
+    {
+      "seed": 100008,
+      "score": 1116,
+      "survival_seconds": 11.166666666666801,
+      "steps": 112,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 95.16666666666666
+    },
+    {
+      "seed": 100009,
+      "score": 3136,
+      "survival_seconds": 31.366666666666166,
+      "steps": 314,
+      "terminated": true,
+      "truncated": false,
+      "passed": 1,
+      "total_reward": 309.66666666666663
+    },
+    {
+      "seed": 100010,
+      "score": 558,
+      "survival_seconds": 5.583333333333319,
+      "steps": 56,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 36.33333333333333
+    },
+    {
+      "seed": 100011,
+      "score": 1600,
+      "survival_seconds": 16.000000000000373,
+      "steps": 160,
+      "terminated": true,
+      "truncated": false,
+      "passed": 1,
+      "total_reward": 146.49999999999997
+    },
+    {
+      "seed": 100012,
+      "score": 1161,
+      "survival_seconds": 11.616666666666823,
+      "steps": 117,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 99.66666666666666
+    },
+    {
+      "seed": 100013,
+      "score": 663,
+      "survival_seconds": 6.633333333333315,
+      "steps": 67,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 46.833333333333314
+    },
+    {
+      "seed": 100014,
+      "score": 2538,
+      "survival_seconds": 25.383333333333173,
+      "steps": 254,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 245.8333333333333
+    },
+    {
+      "seed": 100015,
+      "score": 661,
+      "survival_seconds": 6.6166666666666485,
+      "steps": 67,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 47.16666666666666
+    },
+    {
+      "seed": 100016,
+      "score": 799,
+      "survival_seconds": 7.999999999999977,
+      "steps": 80,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 61.499999999999986
+    },
+    {
+      "seed": 100017,
+      "score": 3483,
+      "survival_seconds": 34.83333333333264,
+      "steps": 349,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 346.3333333333333
+    },
+    {
+      "seed": 100018,
+      "score": 2128,
+      "survival_seconds": 21.283333333333406,
+      "steps": 213,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 202.33333333333331
+    },
+    {
+      "seed": 100019,
+      "score": 2459,
+      "survival_seconds": 24.599999999999884,
+      "steps": 246,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 237.49999999999994
+    },
+    {
+      "seed": 100020,
+      "score": 1521,
+      "survival_seconds": 15.216666666667003,
+      "steps": 153,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 138.16666666666666
+    },
+    {
+      "seed": 100021,
+      "score": 2309,
+      "survival_seconds": 23.09999999999997,
+      "steps": 231,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 221.49999999999997
+    },
+    {
+      "seed": 100022,
+      "score": 893,
+      "survival_seconds": 8.933333333333357,
+      "steps": 90,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 71.33333333333331
+    },
+    {
+      "seed": 100023,
+      "score": 1488,
+      "survival_seconds": 14.883333333333653,
+      "steps": 149,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 134.33333333333331
+    },
+    {
+      "seed": 100024,
+      "score": 1560,
+      "survival_seconds": 15.600000000000355,
+      "steps": 156,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 141.99999999999997
+    },
+    {
+      "seed": 100025,
+      "score": 1163,
+      "survival_seconds": 11.633333333333491,
+      "steps": 117,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 100.33333333333331
+    },
+    {
+      "seed": 100026,
+      "score": 491,
+      "survival_seconds": 4.9166666666666545,
+      "steps": 50,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 29.16666666666666
+    },
+    {
+      "seed": 100027,
+      "score": 910,
+      "survival_seconds": 9.100000000000032,
+      "steps": 91,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 73.49999999999999
+    },
+    {
+      "seed": 100028,
+      "score": 816,
+      "survival_seconds": 8.166666666666652,
+      "steps": 82,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 63.66666666666666
+    },
+    {
+      "seed": 100029,
+      "score": 1976,
+      "survival_seconds": 19.766666666666826,
+      "steps": 198,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 186.16666666666663
+    },
+    {
+      "seed": 100030,
+      "score": 2353,
+      "survival_seconds": 23.533333333333278,
+      "steps": 236,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 226.33333333333331
+    },
+    {
+      "seed": 100031,
+      "score": 3203,
+      "survival_seconds": 32.0333333333328,
+      "steps": 321,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 316.83333333333326
+    },
+    {
+      "seed": 100032,
+      "score": 2016,
+      "survival_seconds": 20.166666666666803,
+      "steps": 202,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 190.66666666666663
+    },
+    {
+      "seed": 100033,
+      "score": 1183,
+      "survival_seconds": 11.833333333333501,
+      "steps": 119,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 102.33333333333331
+    },
+    {
+      "seed": 100034,
+      "score": 8718,
+      "survival_seconds": 87.18333333332967,
+      "steps": 872,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 914.8333333333334
+    },
+    {
+      "seed": 100035,
+      "score": 761,
+      "survival_seconds": 7.616666666666645,
+      "steps": 77,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 57.66666666666666
+    },
+    {
+      "seed": 100036,
+      "score": 3629,
+      "survival_seconds": 36.29999999999922,
+      "steps": 363,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 361.99999999999994
+    },
+    {
+      "seed": 100037,
+      "score": 481,
+      "survival_seconds": 4.816666666666655,
+      "steps": 49,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 28.16666666666666
+    },
+    {
+      "seed": 100038,
+      "score": 1360,
+      "survival_seconds": 13.600000000000255,
+      "steps": 136,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 121.0
+    },
+    {
+      "seed": 100039,
+      "score": 1163,
+      "survival_seconds": 11.633333333333491,
+      "steps": 117,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 100.33333333333331
+    },
+    {
+      "seed": 100040,
+      "score": 711,
+      "survival_seconds": 7.116666666666647,
+      "steps": 72,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 52.16666666666666
+    },
+    {
+      "seed": 100041,
+      "score": 4521,
+      "survival_seconds": 45.21666666666538,
+      "steps": 453,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 457.66666666666663
+    },
+    {
+      "seed": 100042,
+      "score": 3874,
+      "survival_seconds": 38.74999999999908,
+      "steps": 388,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 388.49999999999994
+    },
+    {
+      "seed": 100043,
+      "score": 1033,
+      "survival_seconds": 10.333333333333426,
+      "steps": 104,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 86.33333333333331
+    },
+    {
+      "seed": 100044,
+      "score": 1096,
+      "survival_seconds": 10.966666666666791,
+      "steps": 110,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 93.16666666666666
+    },
+    {
+      "seed": 100045,
+      "score": 556,
+      "survival_seconds": 5.566666666666652,
+      "steps": 56,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 36.16666666666666
+    },
+    {
+      "seed": 100046,
+      "score": 1561,
+      "survival_seconds": 15.616666666667022,
+      "steps": 157,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 142.16666666666663
+    },
+    {
+      "seed": 100047,
+      "score": 1933,
+      "survival_seconds": 19.333333333333517,
+      "steps": 194,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 181.33333333333334
+    },
+    {
+      "seed": 100048,
+      "score": 1090,
+      "survival_seconds": 10.900000000000121,
+      "steps": 109,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 92.49999999999999
+    },
+    {
+      "seed": 100049,
+      "score": 4458,
+      "survival_seconds": 44.583333333332085,
+      "steps": 446,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 450.83333333333326
+    },
+    {
+      "seed": 100050,
+      "score": 975,
+      "survival_seconds": 9.750000000000064,
+      "steps": 98,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 79.99999999999999
+    },
+    {
+      "seed": 100051,
+      "score": 684,
+      "survival_seconds": 6.849999999999981,
+      "steps": 69,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 49.499999999999986
+    },
+    {
+      "seed": 100052,
+      "score": 618,
+      "survival_seconds": 6.183333333333317,
+      "steps": 62,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 42.33333333333333
+    },
+    {
+      "seed": 100053,
+      "score": 1816,
+      "survival_seconds": 18.166666666666917,
+      "steps": 182,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 169.16666666666666
+    },
+    {
+      "seed": 100054,
+      "score": 431,
+      "survival_seconds": 4.316666666666657,
+      "steps": 44,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 23.16666666666666
+    },
+    {
+      "seed": 100055,
+      "score": 839,
+      "survival_seconds": 8.399999999999997,
+      "steps": 84,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 65.99999999999999
+    },
+    {
+      "seed": 100056,
+      "score": 1480,
+      "survival_seconds": 14.800000000000315,
+      "steps": 148,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 133.5
+    },
+    {
+      "seed": 100057,
+      "score": 1500,
+      "survival_seconds": 15.000000000000325,
+      "steps": 150,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 135.49999999999997
+    },
+    {
+      "seed": 100058,
+      "score": 4099,
+      "survival_seconds": 40.999999999998956,
+      "steps": 410,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 412.49999999999994
+    },
+    {
+      "seed": 100059,
+      "score": 1015,
+      "survival_seconds": 10.150000000000084,
+      "steps": 102,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 84.49999999999999
+    },
+    {
+      "seed": 100060,
+      "score": 3288,
+      "survival_seconds": 32.88333333333275,
+      "steps": 329,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 325.83333333333326
+    },
+    {
+      "seed": 100061,
+      "score": 458,
+      "survival_seconds": 4.583333333333322,
+      "steps": 46,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 25.833333333333325
+    },
+    {
+      "seed": 100062,
+      "score": 551,
+      "survival_seconds": 5.516666666666652,
+      "steps": 56,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 35.66666666666666
+    },
+    {
+      "seed": 100063,
+      "score": 910,
+      "survival_seconds": 9.100000000000032,
+      "steps": 91,
+      "terminated": true,
+      "truncated": false,
+      "passed": 1,
+      "total_reward": 73.49999999999999
+    },
+    {
+      "seed": 100064,
+      "score": 1998,
+      "survival_seconds": 19.98333333333348,
+      "steps": 200,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 188.33333333333334
+    },
+    {
+      "seed": 100065,
+      "score": 773,
+      "survival_seconds": 7.733333333333311,
+      "steps": 78,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 58.833333333333314
+    },
+    {
+      "seed": 100066,
+      "score": 1890,
+      "survival_seconds": 18.900000000000208,
+      "steps": 189,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 176.99999999999997
+    },
+    {
+      "seed": 100067,
+      "score": 3006,
+      "survival_seconds": 30.06666666666624,
+      "steps": 301,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 295.6666666666667
+    },
+    {
+      "seed": 100068,
+      "score": 476,
+      "survival_seconds": 4.766666666666655,
+      "steps": 48,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 27.66666666666666
+    },
+    {
+      "seed": 100069,
+      "score": 1445,
+      "survival_seconds": 14.450000000000298,
+      "steps": 145,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 130.0
+    },
+    {
+      "seed": 100070,
+      "score": 2521,
+      "survival_seconds": 25.216666666666516,
+      "steps": 253,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 244.1666666666666
+    },
+    {
+      "seed": 100071,
+      "score": 1240,
+      "survival_seconds": 12.400000000000196,
+      "steps": 124,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 108.49999999999999
+    },
+    {
+      "seed": 100072,
+      "score": 2181,
+      "survival_seconds": 21.81666666666671,
+      "steps": 219,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 208.16666666666663
+    },
+    {
+      "seed": 100073,
+      "score": 691,
+      "survival_seconds": 6.916666666666647,
+      "steps": 70,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 50.16666666666666
+    },
+    {
+      "seed": 100074,
+      "score": 3541,
+      "survival_seconds": 35.41666666666594,
+      "steps": 355,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 352.6666666666667
+    },
+    {
+      "seed": 100075,
+      "score": 903,
+      "survival_seconds": 9.033333333333362,
+      "steps": 91,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 72.83333333333331
+    },
+    {
+      "seed": 100076,
+      "score": 1708,
+      "survival_seconds": 17.083333333333645,
+      "steps": 171,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 157.83333333333331
+    },
+    {
+      "seed": 100077,
+      "score": 1673,
+      "survival_seconds": 16.733333333333665,
+      "steps": 168,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 154.33333333333331
+    },
+    {
+      "seed": 100078,
+      "score": 1080,
+      "survival_seconds": 10.800000000000116,
+      "steps": 108,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 91.49999999999999
+    },
+    {
+      "seed": 100079,
+      "score": 1761,
+      "survival_seconds": 17.616666666666948,
+      "steps": 177,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 163.66666666666663
+    },
+    {
+      "seed": 100080,
+      "score": 551,
+      "survival_seconds": 5.516666666666652,
+      "steps": 56,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 35.66666666666666
+    },
+    {
+      "seed": 100081,
+      "score": 4164,
+      "survival_seconds": 41.64999999999892,
+      "steps": 417,
+      "terminated": true,
+      "truncated": false,
+      "passed": 1,
+      "total_reward": 419.49999999999994
+    },
+    {
+      "seed": 100082,
+      "score": 2103,
+      "survival_seconds": 21.03333333333342,
+      "steps": 211,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 199.83333333333334
+    },
+    {
+      "seed": 100083,
+      "score": 4373,
+      "survival_seconds": 43.73333333333213,
+      "steps": 438,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 441.83333333333326
+    },
+    {
+      "seed": 100084,
+      "score": 1981,
+      "survival_seconds": 19.816666666666823,
+      "steps": 199,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 186.66666666666666
+    },
+    {
+      "seed": 100085,
+      "score": 2308,
+      "survival_seconds": 23.083333333333304,
+      "steps": 231,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 221.33333333333331
+    },
+    {
+      "seed": 100086,
+      "score": 2228,
+      "survival_seconds": 22.28333333333335,
+      "steps": 223,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 212.83333333333331
+    },
+    {
+      "seed": 100087,
+      "score": 461,
+      "survival_seconds": 4.616666666666656,
+      "steps": 47,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 26.16666666666666
+    },
+    {
+      "seed": 100088,
+      "score": 769,
+      "survival_seconds": 7.699999999999978,
+      "steps": 77,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 58.499999999999986
+    },
+    {
+      "seed": 100089,
+      "score": 469,
+      "survival_seconds": 4.699999999999989,
+      "steps": 47,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 26.999999999999993
+    },
+    {
+      "seed": 100090,
+      "score": 2796,
+      "survival_seconds": 27.96666666666636,
+      "steps": 280,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 273.16666666666663
+    },
+    {
+      "seed": 100091,
+      "score": 1563,
+      "survival_seconds": 15.63333333333369,
+      "steps": 157,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 142.33333333333331
+    },
+    {
+      "seed": 100092,
+      "score": 469,
+      "survival_seconds": 4.699999999999989,
+      "steps": 47,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 26.999999999999993
+    },
+    {
+      "seed": 100093,
+      "score": 773,
+      "survival_seconds": 7.733333333333311,
+      "steps": 78,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 58.833333333333314
+    },
+    {
+      "seed": 100094,
+      "score": 819,
+      "survival_seconds": 8.199999999999987,
+      "steps": 82,
+      "terminated": true,
+      "truncated": false,
+      "passed": 1,
+      "total_reward": 63.999999999999986
+    },
+    {
+      "seed": 100095,
+      "score": 1441,
+      "survival_seconds": 14.416666666666963,
+      "steps": 145,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 129.66666666666666
+    },
+    {
+      "seed": 100096,
+      "score": 1413,
+      "survival_seconds": 14.133333333333615,
+      "steps": 142,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 126.83333333333333
+    },
+    {
+      "seed": 100097,
+      "score": 4736,
+      "survival_seconds": 47.36666666666526,
+      "steps": 474,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 480.66666666666663
+    },
+    {
+      "seed": 100098,
+      "score": 1355,
+      "survival_seconds": 13.550000000000253,
+      "steps": 136,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 120.5
+    },
+    {
+      "seed": 100099,
+      "score": 646,
+      "survival_seconds": 6.466666666666649,
+      "steps": 65,
+      "terminated": true,
+      "truncated": false,
+      "passed": 0,
+      "total_reward": 45.66666666666666
+    }
+  ]
+}
