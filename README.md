@@ -1,5 +1,7 @@
 # SPACE COURIER
 
+Source repository: [SpaceCourier](https://github.com/DarthPlagueis123/SpaceCourier)
+
 A charming pixel-art arcade survival game. Pilot a cream-and-coral delivery shuttle with strapped cargo crates through a rocky asteroid field. Shaded, cratered asteroids pass in front of a dithered nebula, banded planets, and a scrolling starfield. Survive longer to score more; every 15 seconds brings a new sector.
 
 ## Run
@@ -79,15 +81,3 @@ Add `--render` to training for an uncapped visual debugging mode. Training is he
 The delivered model averaged **7,311 points** versus **873.5** for random play on 100 held-out games: **8.37 times** the mean score. Both evaluations use a 180-second cap; two learned runs reached it. The agent still sometimes crashes early.
 
 See [AI_EXPERIMENT.md](AI_EXPERIMENT.md) for the exact observations, reward, hyperparameters, training record, limitations, and artifact map.
-
-## Educational website
-
-The React, TypeScript, and Vite guide lives in `website/`. It includes 15 chapters, real-code excerpts, interactive training charts, numerical-state inspection, actual checkpoint videos, and downloadable project artifacts.
-
-```sh
-cd website
-npm ci
-npm run dev
-```
-
-Create production output with `npm run build`. See [website/README.md](website/README.md) for the artifact pipeline, verification, and Netlify/Vercel configuration. Website work does not retrain the model or change the game.

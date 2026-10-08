@@ -1,6 +1,6 @@
 # Space Courier: Phase 2 experiment
 
-This is a genuine reinforcement learning run, completed on CPU with PyTorch 2.6.0. The game graphics, controls, spawning, collision radius, scoring, movement speed, and difficulty curve were preserved. No website was built.
+This is a genuine reinforcement learning run, completed on CPU with PyTorch 2.6.0. The game graphics, controls, spawning, collision radius, scoring, movement speed, and difficulty curve were preserved.
 
 ## Environment and timing
 
@@ -155,4 +155,4 @@ Tests cover deterministic resets, bounded movement, all actions, observation for
 
 A separate 3,100-decision rendered trainer smoke run is retained in `experiments/trainer_smoke/`; it verified the final training CLI, real weight updates after warmup, checkpoint generation, metrics, evaluation, and plotting. Its 32 completed episodes are not part of the reported full experiment. An independent evaluation in `results/recheck/` reproduced both saved 100-game datasets exactly. The selected policy beat random play on 95 of the 100 paired games.
 
-Before Phase 3, useful improvements include several independent training seeds to measure robustness, larger validation sets to reduce selection noise, evaluation beyond the current time cap, and analysis of early-crash trajectories. Screenshot-based learning would be a separate future experiment. The website has not been started.
+Useful improvements include several independent training seeds to measure robustness, larger validation sets to reduce selection noise, evaluation beyond the current time cap, and analysis of early-crash trajectories. Screenshot-based learning would be a separate future experiment.

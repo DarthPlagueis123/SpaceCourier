@@ -1,3 +1,7 @@
 __pycache__/
 *.pyc
 .venv/
+website/
+pixel-panic-website/
+node_modules/
+dist/
