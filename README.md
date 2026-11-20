@@ -111,14 +111,7 @@ Tests use SDL's dummy video/audio drivers and temporary score storage.
 
 ## Reproduce the experiment
 
-A real PyTorch Double DQN is included. It learned through game experience, with no scripted avoidance and no screenshot inputs. Human gameplay remains available without installing the AI dependencies.
-
-```sh
-python -m pip install -r requirements-ai.txt
-python main.py --ai
-```
-
-The title screen also offers **I: Watch AI**. Pause and restart work in both modes. AI runs do not overwrite human high scores. You can load older checkpoints:
+AI runs do not overwrite human high scores. You can load older checkpoints:
 
 ```sh
 python main.py --ai --model models/checkpoints/step_0050000.pth
