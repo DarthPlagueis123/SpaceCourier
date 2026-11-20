@@ -1,17 +1,73 @@
-# SPACE COURIER
+# Space Courier
 
-Source repository: [SpaceCourier](https://github.com/DarthPlagueis123/SpaceCourier)
+**A playable arcade game and reproducible reinforcement learning experiment.**
 
-A charming pixel-art arcade survival game. Pilot a cream-and-coral delivery shuttle with strapped cargo crates through a rocky asteroid field. Shaded, cratered asteroids pass in front of a dithered nebula, banded planets, and a scrolling starfield. Survive longer to score more; every 15 seconds brings a new sector.
+![Space Courier gameplay](game-preview.png)
 
-## Run
+Space Courier is a Python arcade survival game in which a delivery shuttle navigates an increasingly difficult asteroid field. Alongside human gameplay, the project includes a PyTorch Double DQN agent trained through interaction with the same game simulation.
 
-Requires Python 3.10 or newer. From this directory:
+[Experiment methodology](AI_EXPERIMENT.md) · [Gameplay source](game/) · [AI implementation](ai/) · [Tests](tests/)
+
+## Reinforcement learning results
+
+![Trained AI preview](ai-preview.png)
+
+| Policy | Mean score |
+| --- | ---: |
+| Random | 873.5 |
+| Double DQN | 7,311 |
+
+The delivered model achieved **8.37× the random policy's mean score** across 100 held-out games using matching obstacle seeds. Evaluation episodes were capped at 180 seconds; two learned runs reached that cap. The agent can still crash early. These are repository-reported experimental results, not a guarantee of performance in every run.
+
+![Training score history](results/score_history.png)
+![Moving average](results/moving_average.png)
+
+## Technical highlights
+
+- Python game simulation separated from rendering and input.
+- Double DQN implemented with PyTorch, replay memory and a target network.
+- 32 numerical observations and three discrete actions.
+- Network architecture: 32 → 128 → 128 → 3.
+- Headless training, saved checkpoints and visual inference.
+- Seeded evaluation against a random baseline.
+- Automated gameplay and AI regression tests.
+- Locally generated art and audio; no external asset downloads required.
+
+## Architecture
+
+```mermaid
+flowchart LR
+  H[Human input] --> W[Game simulation]
+  W --> R[Rendering and HUD]
+  W --> E[RL environment]
+  E --> O[32 observation features]
+  O --> A[Double DQN]
+  A --> E
+  E --> M[Replay memory]
+  M --> A
+  A --> C[Model checkpoints]
+  C --> V[Seeded evaluation]
+```
+
+## Play the game
+
+Requires Python 3.10 or newer.
 
 ```sh
+git clone https://github.com/DarthPlagueis123/SpaceCourier.git
+cd SpaceCourier
 python -m pip install -r requirements.txt
 python main.py
 ```
+
+## Watch the trained agent
+
+```sh
+python -m pip install -r requirements-ai.txt
+python main.py --ai
+```
+
+The title screen also offers **I: Watch AI**. Human gameplay does not require the AI dependencies.
 
 ## Controls
 
@@ -30,7 +86,7 @@ The window can be resized and uses crisp integer scaling where possible. Losing 
 ## Project structure
 
 ```text
-pixel-panic/
+SpaceCourier/
   main.py             Entry point
   requirements.txt
   game/
@@ -53,7 +109,7 @@ python -m unittest discover -s tests -v
 
 Tests use SDL's dummy video/audio drivers and temporary score storage.
 
-## Trained AI
+## Reproduce the experiment
 
 A real PyTorch Double DQN is included. It learned through game experience, with no scripted avoidance and no screenshot inputs. Human gameplay remains available without installing the AI dependencies.
 
@@ -81,3 +137,17 @@ Add `--render` to training for an uncapped visual debugging mode. Training is he
 The delivered model averaged **7,311 points** versus **873.5** for random play on 100 held-out games: **8.37 times** the mean score. Both evaluations use a 180-second cap; two learned runs reached it. The agent still sometimes crashes early.
 
 See [AI_EXPERIMENT.md](AI_EXPERIMENT.md) for the exact observations, reward, hyperparameters, training record, limitations, and artifact map.
+
+
+## Future experiments
+
+- Compare against a deterministic heuristic and alternative RL algorithms.
+- Train with multiple independent random seeds and report variability.
+- Evaluate robustness under different obstacle distributions.
+- Package downloadable builds and capture a short gameplay comparison.
+
+## Author
+
+Nathan Kransfeld — software development, artificial intelligence and interactive applications.
+
+[GitHub profile](https://github.com/DarthPlagueis123) · [Kransfeld Studios](https://kransfeldstudios.com)
